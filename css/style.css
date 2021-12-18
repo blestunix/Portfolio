@@ -4,7 +4,18 @@
     padding: 0;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&family=Ubuntu:wght@300&display=swap');
+
+.text {
+    padding: 25px;
+    color: azure;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 body {
+    background-color: #000;
     height: 100vh;
     font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
@@ -63,7 +74,7 @@ button {
     left: 25%;
     top: 50%;
     z-index: 100;
-    background-color: #000;
+    background-color: #fff;
     border: none;
     color: #aaa;
     cursor: pointer;
@@ -96,4 +107,81 @@ button:focus {
 }
 .title {
     color: #5C6AC4;
+}
+
+.info > div {
+    padding: 25px;
+}
+
+.tile {
+    margin-top: 10px;
+    padding: 25px;
+    border: solid aqua;
+    border-radius: 10px;
+    background-image: radial-gradient(circle, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+}
+
+.flex-container {
+    display: flex;
+}
+* {
+    box-sizing:border-box
+}
+
+.chart {
+    padding-left: 50px;
+}
+/* Container for skill bars */
+.bar {
+    border-radius: 10px;
+    width: 500px;
+    background-color: #ddd;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.skills {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    padding-left: 25px;
+    color: white; /* White text color */
+}
+
+.swift {
+    width: 95%; 
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #f05138, #f2664f, #f37965, #f28b7a, #f09d90);
+}
+.py {
+    width: 92%; 
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #ffd341, #83cd61, #00b596, #0093af, #336d9b);
+}
+
+.obj {
+    width: 70%; 
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #0a0a0a, #2f2f2f, #545454, #7c7c7c, #a7a7a7);
+}
+.c {
+    width: 90%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #ffffff, #e1e1f1, #bec6e5, #95add8, #6295cb);
+}
+.arm {
+    width: 60%; 
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #414141, #50516b, #566399, #4d77cb, #008eff);
+}
+.ir {
+    width: 60%; 
+    border-radius: 10px;
+    background-image: linear-gradient(to right top, #09637d, #25799c, #4090bd, #5ea6de, #7ebdff);
+}
+
+
+.plname {
+    font-family: 'Ubuntu', sans-serif;
+    color: #008eff;
 }
